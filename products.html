@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find Us</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/products.css">
+
+</head>
+<body>
+	<div class="grid-container">
+	  <div class="item1">
+	  	<ul class="nav-ul" id="nav-ul">
+	  		<li><a class="" href="index.html">Home</a></li>
+	  		<li><a class="active" href="products.html">Products</a></li>
+	  		<li><a  href="findus.html">Find Us</a></li>
+	  		<li><a href="gallery.html">Gallery</a></li>
+	  	</ul>
+
+	  </div>
+	  <div class="item2">
+	  	<p class="title">Latest Releases - 2022</p>
+	  	<hr>
+
+	  	<button class="cart" id="cart" style="float: right;margin-right: 10px;">View Cart</button>
+
+	  	<table class="products-table">
+	  		<tr>
+	  			<td width="10%"><img alt="image" src="images/6.jpg" height="85"></td>
+	  			<td width="60%"><p class="active">GTA V</p>
+	  				<p>GTA 5 is a third-person tactical shooter stealth video game developed and published by Rebellion Developments.</p>
+	  			</td>
+	  			<td width="10%">
+	  			</td>
+	  			<td width="20%">
+	  				<label class="price">35 USD</label><br>
+	  				<button onclick="setItem(0)" class="check-out" id="gta5" value="35">Add to cart</button>
+	  			</td>
+	  		</tr>
+
+	  		<tr>
+	  			<td width="10%"><img alt="image" src="images/3.webp" height="85"></td>
+	  			<td width="60%"><p class="active">Assasins Creed Noha</p>
+	  				<p>Assasins Creed Noha tells the story of brotherhood, faith and betrayal in the most complete sniper experience ever. </p>
+	  			</td>
+	  			<td width="10%">
+	  			</td>
+	  			<td width="20%">
+	  				<label class="price">85 USD</label><br>
+	  				<button onclick="setItem(1)" class="check-out" id="assasin1" value="85">Add to cart</button>
+	  			</td>
+	  		</tr>
+
+	  		<tr>
+	  			<td width="10%"><img alt="image" src="images/4.jpg" height="85"></td>
+	  			<td width="60%"><p class="active">GTA IV</p>
+	  				<p>GTA IV is a third-person action video game developed and published by Rebellion Developments.</p>
+	  			</td>
+	  			<td width="10%">
+	  			</td>
+	  			<td width="20%">
+	  				<label class="price">28 USD</label><br>
+	  				<button onclick="setItem(2)" class="check-out" id="gta4" value="28">Add to cart</button>
+	  			</td>
+	  		</tr>
+
+	  		<tr>
+	  			<td width="10%"><img alt="image" src="images/2.jpg" height="85"></td>
+	  			<td width="60%"><p class="active">Game of Thrones</p>
+	  				<p>Game of Thrones is an action-adventure video game developed and published by Ubisoft.</p>
+	  			</td>
+	  			<td width="10%">
+	  			</td>
+	  			<td width="20%">
+	  				<label class="price">88 USD</label><br>
+	  				<button onclick="setItem(3)" class="check-out" id="got" value="88">Add to cart</button>
+	  			</td>
+	  		</tr>
+
+	  			<tr>
+	  			<td width="10%"><img alt="image" src="images/hero.jpg" height="85"></td>
+	  			<td width="60%"><p class="active">Nowadays</p>
+	  				<p>Nowadays is a first-person shooter game developed by Ubisoft Montreal and Ubisoft Toronto and published by Ubisoft. </p>
+	  			</td>
+	  			<td width="10%">
+	  			</td>
+	  			<td width="20%">
+	  				<label class="price">110 USD</label><br>
+	  				<button onclick="setItem(4)" class="check-out" id="nova" value="110">Add to cart</button>
+	  			</td>
+	  		</tr>
+
+	  	</table>
+	  </div>
+
+	  <div class="item5">
+	  	<p class="contact">
+	  		<b>Email:</b> gamesworld@akilgames.com &nbsp; &nbsp; 
+	  		<b>Hotline:</b> +1-234-567-8900
+	  	</p>
+	  	<p class="aligh-center">2022 Copyright @ Alright Reserved</p>
+	  </div>
+	</div>
+
+
+	<div class="popup" id="popup" style="text-align: left;overflow-y: scroll;">
+		<button id="close-popup" class="close-popup">Close</button>
+		<hr>
+		<b>Item List:</b> <br><span id="itemprice"></span><br>
+		<b>Total Price :</b> <span id="totalprice"></span><br>
+		<br>
+		<hr>
+		<a href="shipping.html" class="confirm-btn">Confirm</a>
+	</div>
+
+	<script type="text/javascript" src="js/products.js">
+	</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shipping Details</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/shipping.css">
+
+</head>
+<body>
+	<div class="grid-container">
+	  <div class="item1">
+	  	<ul class="nav-ul" id="nav-ul">
+	  		<li><a class="" href="index.html">Home</a></li>
+	  		<li><a  class="active"  href="products.html">Products</a></li>
+	  		<li><a href="findus.html">Find Us</a></li>
+	  		<li><a href="gallery.html">Gallery</a></li>
+	  	</ul>
+
+	  </div>
+	  <div class="item2">
+	  	<p class="title">Shipping Details</p>
+	  	<hr>
+	  	
+	  	<div class="form-div">
+			<form name="myForm" id="form" onsubmit="alert('Thank you for order')">
+				<table class="table">
+					<tr>
+						<td><label>Name</label></td>
+						<td><input class="input" required type="text" name="name" id="name"></td>
+					</tr>
+	  				<tr>
+	  					<td><label>Address</label></td>
+	  					<td><input class="input" required type="text" name="address" id="address"></td>
+	  				</tr>
+	  				<tr>
+	  					<td><label>Email</label></td>
+	  					<td><input class="input" required type="text" name="email" id="email"></td>
+	  				</tr>
+	  				<tr>
+	  					<td><label>Contact</label></td>
+	  					<td><input class="input" required type="text" name="contact" id="contact"></td>
+	  				</tr>
+	  				<tr>
+	  					<td><label>Prefered Way to Contact</label></td>
+	  					<td><input checked  type="radio" name="contact_1" value="Phone" > Phone  &nbsp;&nbsp;&nbsp;
+	  						<input  type="radio" name="contact_1" value="Email" > Email 
+	  					</td>
+	  				</tr>
+	  				<tr>
+	  					<td><label>Additional Request</label></td>
+	  					<td><textarea class="input"  name="message" ></textarea></td>
+	  				</tr>
+	  				<tr>
+	  					<td></td>
+	  					<td><button class="btn btn-sub" type="submit">Confirm</button>
+	  						<a class="btn btn-cancel" href="products.html">Cancel</a></td>
+	  				</tr>
+	  			</table>
+	  		</form>
+	  		<span class="err"></span>
+	  	</div>
+
+
+	  </div>
+
+	  <div class="item5">
+	  	<p class="contact">
+	  		<b>Email:</b> gamesworld@akilgames.com &nbsp; &nbsp; 
+	  		<b>Hotline:</b> +1-234-567-8900
+	  	</p>
+	  	<p class="aligh-center">2022 Copyright @ Alright Reserved</p>
+	  </div>
+	</div>
+
+
+	<script type="text/javascript" src="js/shipping.js">
+		
+	</script>
+</body>
+</html>
